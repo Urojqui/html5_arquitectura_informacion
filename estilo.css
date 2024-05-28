@@ -1,6 +1,6 @@
 ul{
     font-family: Arial, Helvetica, sans-serif;
-    background: #e8e8e8;
+    background: #f8f6f6;
 }
 
 .menu{
@@ -8,13 +8,13 @@ ul{
     padding: 0;
     background: #092327;
     width: auto; 
-    max-width: auto;
     margin: auto;
+    text-align: left;
 }
 
 .menu li a{
     text-decoration: none;
-     color: withe;
+     color: #e8e8e8;
     padding: 20px;
     display: block;
 }
@@ -26,4 +26,20 @@ ul{
 
 .menu li a:hover{
     background: #ef8354;
+}
+
+header h2{
+    font-size: 30px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+header h2 img{
+    width: 60px;
+    height: 30px;
+}
+
+video{
+    width: 560px;
+    height: 315px;
 }
